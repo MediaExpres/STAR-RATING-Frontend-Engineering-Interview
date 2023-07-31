@@ -9,10 +9,11 @@ const StarRating = () => {
 
     return (
         <div className='star-rating-container'>
+        currentRating: {currentRating}
         {
             [...Array(5)].map((_, idx) => {
                 const ratingValue = idx + 1;
-                return <p key={idx}>{ratingValue}</p>
+                return <p key={idx} onClick={() => setCurrentRating(ratingValue)}>{ratingValue}</p>
         })
         }
         </div>
