@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import StarRating from './assets/star-rating.component'
+import StarRating from './assets/star-rating.component.jsx'
 import './App.css'
 
 function App() {
