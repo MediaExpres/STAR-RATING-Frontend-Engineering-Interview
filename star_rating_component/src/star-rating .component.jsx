@@ -1,7 +1,11 @@
+import { useState } from 'react';
+
 import './star-rating.styles.css'
 
 const StarRating = () => {
     const maxRating =5;
+
+    const [currentRating, setCurrentRating] = useState(0);
 
     return (
         <div className='star-rating-container'>
