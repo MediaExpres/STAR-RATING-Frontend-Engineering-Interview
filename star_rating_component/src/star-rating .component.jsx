@@ -1,3 +1,5 @@
+import '.star-rating.styles.css';
+
 const starRating = () => {
     const maxRating =5;
 
