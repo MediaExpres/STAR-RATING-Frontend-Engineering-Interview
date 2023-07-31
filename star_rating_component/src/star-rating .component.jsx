@@ -1,10 +1,10 @@
-import '.star-rating.styles.css';
+import '.star-rating.styles.css'
 
 const starRating = () => {
     const maxRating =5;
 
     return (
-        <div className="star-rating-container">
+        <div className='star-rating-container'>
         {
             [...Array(5)].map((_, idx) => <p key={idx}>{idx + 1}</p>)
         }
@@ -13,4 +13,4 @@ const starRating = () => {
 
 }
 
-export default starRating;
+export default starRating
