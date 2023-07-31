@@ -6,10 +6,13 @@ const starRating = () => {
     return (
         <div className='star-rating-container'>
         {
-            [...Array(5)].map((_, idx) => <p key={idx}>{idx + 1}</p>)
+            [...Array(5)].map((_, idx) => {
+                const ratingValue = idx + 1;
+                return <p key={idx}>{ratingValue}</p>
+        })
         }
         </div>
-    )
+    
 
 }
 
