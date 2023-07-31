@@ -1,6 +1,6 @@
-import '.star-rating.styles.css'
+import './star-rating.styles.css'
 
-const starRating = () => {
+const StarRating = () => {
     const maxRating =5;
 
     return (
@@ -16,4 +16,4 @@ const starRating = () => {
 
 }
 
-export default starRating
+export default StarRating;
